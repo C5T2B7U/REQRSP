@@ -35,3 +35,15 @@ Z					=  undo: 	[Ctrl]+[Z]
 Y					=  redo: 	[Ctrl]+[Y]
 AUTO [ON | OFF] {<seconds>}		=  set automatic response mode [on | off] {set rate}
 DEBUG [ON | OFF]			=  set debug messages [off | on]
+
+
+-----------
+TO-DO LIST:
+-----------
+
+1. Migrate Linux-specific code into a multi-platform solution.
+2. Evaluate and integrate additional security measures (currently this application is only as secure as your Dropbox account!!)
+3. Verify this solution works with other cloud-based storage providers.
+4. Implement locks to better manage file synchronization.
+5. Add screenshots.
+6. Consider building a Tkinter client for a more robust pseudo-VNC experience.
